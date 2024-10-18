@@ -52,7 +52,8 @@ Dr. T Nagarjuna, Assistant Professor
   - `srsran_4g_install_configs.sh` (to install LTE configuration files)
   - `gedit` for configuration file editing.
 
-![USRP N321 SDR](path/to/your/image.png)
+
+![Screenshot 2024-10-18 150037](https://github.com/user-attachments/assets/26731e76-520e-442c-b301-4cbe80005f01)
 
 ---
 
@@ -62,14 +63,17 @@ Dr. T Nagarjuna, Assistant Professor
 - The **eNodeB** (eNB) handles radio communication with mobile devices, connected to the EPC for traffic routing and control.
 - The EPC contains the **MME**, **SGW**, **HSS**, and **PGW** components to manage core network functions like subscriber authentication, data routing, and IP address allocation.
 
-![Structural Architecture Diagram](path/to/your/image.png)
+![layout](https://github.com/user-attachments/assets/844f0970-7f2a-4cbe-a1dc-2c08e9a2769e)
+
+
+![layout](https://github.com/user-attachments/assets/a151879c-43b7-4fba-a720-e57e3016c9dd)
 
 ### **Behavioral Architecture**
 - **eNodeB** processes LTE signals using SDR.
 - **MME** manages authentication, handovers, and session management.
 - **SGW and PGW** handle data routing between the LTE network and external networks (e.g., the internet).
 
-![Behavioral Architecture Diagram](path/to/your/image.png)
+![Flowchart](https://github.com/user-attachments/assets/336c295f-8ecd-4286-887e-71bed922588e)
 
 ---
 
