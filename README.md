@@ -66,7 +66,7 @@ Dr. T Nagarjuna, Assistant Professor
 ![layout](https://github.com/user-attachments/assets/844f0970-7f2a-4cbe-a1dc-2c08e9a2769e)
 
 
-![layout](https://github.com/user-attachments/assets/a151879c-43b7-4fba-a720-e57e3016c9dd)
+![setup](https://github.com/user-attachments/assets/6554aea1-f09c-45e7-9550-1973daa80d1c)
 
 ### **Behavioral Architecture**
 - **eNodeB** processes LTE signals using SDR.
