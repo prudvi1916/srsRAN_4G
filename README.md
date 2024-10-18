@@ -82,6 +82,7 @@ Edit the `enb.conf` file for proper eNodeB setup:
 ```bash
 sudo gedit /root/.config/srsran/enb.conf
 Ensure lines 20-23 of the enb.conf file contain the following configuration for correct eNodeB setup:
+
 mcc = 001               # Mobile Country Code
 mnc = 01                # Mobile Network Code
 tac = 7                 # Tracking Area Code
@@ -105,11 +106,11 @@ IMSI,K,OPC,AMF
 Start eNodeB and EPC:
 sudo srsepc
 sudo srsenb
-## Testing Use Cases:
 
-- **Mobile Connectivity**: Set up mobile devices with a custom APN to connect to the private 4G network.
-- **Subscriber Management**: Use programmable SIMs for authentication and managing user identities.
-- **Private 4G Network**: Test secure and reliable data communication within the network.
+## Testing Use Cases:
+**Mobile Connectivity**: Set up mobile devices with a custom APN to connect to the private 4G network.
+**Subscriber Management**: Use programmable SIMs for authentication and managing user identities.
+**Private 4G Network**: Test secure and reliable data communication within the network.
 
 ## Test Cases:
 
