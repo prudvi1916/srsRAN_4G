@@ -90,6 +90,7 @@ mcc = 001               # Mobile Country Code
 mnc = 01                # Mobile Network Code
 tac = 7                 # Tracking Area Code
 enb_id = 19             # eNodeB ID
+
 Save and exit the file.
 
 Setup EPC Components:
@@ -112,17 +113,16 @@ sudo srsenb
 
 ## Test Cases:
 
-- **eNodeB Setup Test**: Verify proper configuration and operation of the eNodeB.
-- **APN Configuration Test**: Ensure mobile devices can connect through the configured APN.
-- **SIM Authentication Test**: Confirm that programmable SIMs authenticate users and provide network access.
+**eNodeB Setup Test**: Verify proper configuration and operation of the eNodeB.
+**APN Configuration Test**: Ensure mobile devices can connect through the configured APN.
+**SIM Authentication Test**: Confirm that programmable SIMs authenticate users and provide network access.
 
 ## Future Work:
 
-- **Voice Call Integration**: Implement Asterisk to enable voice call functionality between connected mobile devices.
-- **Transition to 5G**: Explore upgrading the setup to support 5G by integrating 5G NR components in srsRAN.
-- **Vehicle-to-Everything Communication (C-V2X)**: Explore cellular-based communication protocols for vehicle-to-everything integration.
+**Voice Call Integration**: Implement Asterisk to enable voice call functionality between connected mobile devices.
+**Transition to 5G**: Explore upgrading the setup to support 5G by integrating 5G NR components in srsRAN.
+**Vehicle-to-Everything Communication (C-V2X)**: Explore cellular-based communication protocols for vehicle-to-everything integration.
 
 ## References:
-
-- [srsRAN 4G on GitHub](https://github.com/srsran/srsRAN)
-- [Ettus Research – USRP N321](https://www.ettus.com/all-products/usrp-n321/)
+[srsRAN 4G on GitHub](https://github.com/srsran/srsRAN)
+[Ettus Research – USRP N321](https://www.ettus.com/all-products/usrp-n321/)
