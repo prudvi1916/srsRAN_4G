@@ -80,3 +80,10 @@ Edit the `enb.conf` file for proper eNodeB setup:
 
 ```bash
 sudo gedit /root/.config/srsran/enb.conf
+
+## Ensure lines 20-23 of the enb.conf file contain the following configuration for the correct eNodeB setup:
+
+mcc = 001               # Mobile Country Code
+mnc = 01                # Mobile Network Code
+tac = 7                 # Tracking Area Code
+enb_id = 19             # eNodeB ID
