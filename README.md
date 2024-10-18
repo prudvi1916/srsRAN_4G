@@ -4,6 +4,8 @@
 
 This project focuses on the **design and development of a 4G Private Network** using the USRP N321 Software Defined Radio (SDR) hardware and the **srsRAN 4G** open-source software suite. The primary objective is to implement a functional eNodeB (base station), configure the EPC (Evolved Packet Core), and ensure mobile devices can connect securely to this private LTE network for communication and data services.
 
+![4G Private Network Architecture](path/to/your/image.png)
+
 ## **Table of Contents**
 - [Objective and Goals](#objective-and-goals)
 - [Project Team](#project-team)
@@ -49,6 +51,8 @@ Dr. T Nagarjuna, Assistant Professor
   - `srsran_4g_install_configs.sh` (to install LTE configuration files)
   - `gedit` for configuration file editing.
 
+![USRP N321 SDR](path/to/your/image.png)
+
 ---
 
 ## **Architecture**
@@ -57,10 +61,14 @@ Dr. T Nagarjuna, Assistant Professor
 - The **eNodeB** (eNB) handles radio communication with mobile devices, connected to the EPC for traffic routing and control.
 - The EPC contains the **MME**, **SGW**, **HSS**, and **PGW** components to manage core network functions like subscriber authentication, data routing, and IP address allocation.
 
+![Structural Architecture Diagram](path/to/your/image.png)
+
 ### **Behavioral Architecture**
 - **eNodeB** processes LTE signals using SDR.
 - **MME** manages authentication, handovers, and session management.
 - **SGW and PGW** handle data routing between the LTE network and external networks (e.g., the internet).
+
+![Behavioral Architecture Diagram](path/to/your/image.png)
 
 ---
 
@@ -74,6 +82,7 @@ Dr. T Nagarjuna, Assistant Professor
    cmake ..
    make
    sudo srsran_4g_install_configs.sh <user/service>
+
 
 ## Configure eNodeB
 
