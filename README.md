@@ -1,4 +1,4 @@
-# **4G Private Network Development using USRP N321 and srsRAN 4G**12345dgnm
+# **4G Private Network Development using USRP N321 and srsRAN 4G**12345dgnma1
 
 ## **Project Overview**
 
