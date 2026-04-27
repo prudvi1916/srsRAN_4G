@@ -1,4 +1,4 @@
-# **4G Private Network Development using USRP N321 and srsRAN 4G**btnanaa sqnsyrms
+# **4G Private Network Development using USRP N321 and srsRAN 4G**btnanaa sqnsyrms ds
 ## **Project Overview**
 
 This project focuses on the **design and development of a 4G Private Network** using the USRP N321 Software Defined Radio (SDR) hardware and the **srsRAN 4G** open-source software suite. The primary objective is to implement a functional eNodeB (base station), configure the EPC (Evolved Packet Core), and ensure mobile devices can connect securely to this private LTE network for communication and data services.
